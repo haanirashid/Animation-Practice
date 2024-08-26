@@ -1,0 +1,851 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+/* Nav CSS Start */
+
+
+.nav {
+    background-color: #04364A;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    border-bottom: 2px solid #F1E696;
+    border-bottom: 2px solid #BBE1FA;
+}
+
+.nav .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100px;
+}
+
+.nav .title a {
+    text-decoration: underline #176B87;
+}
+
+.nav .title h1 {
+    font-size: 38px;
+    color: whitesmoke;
+    background-size: cover;
+}
+
+.nav .list {
+    width: 35%;
+    height: 100px;
+}
+
+.list ul {
+    width: 100%;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #64CCC5;
+}
+
+.list ul li a:hover {
+    text-decoration: underline #176B87;
+}
+
+.menu {
+    width: 25%;
+    height: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu i {
+    font-size: 28px;
+    color: #176B87;
+}
+
+
+@media (max-width:1000px) and (min-width:880px) {
+    .nav .title {
+        width: 35%;
+    }
+
+    .nav .list ul li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:880px) and (min-width:660px) {
+    .nav .title {
+        width: 35%;
+    }
+
+    .nav .list {
+        display: none;
+    }
+
+    .nav .menu {
+        display: flex;
+    }
+}
+
+@media (max-width:660px) {
+    .nav .title {
+        width: 35%;
+    }
+
+    .nav .list {
+        display: none;
+    }
+
+    .nav .menu {
+        display: flex;
+    }
+}
+
+/* Nav CSS End */
+
+/* Cover CSs start */
+
+.cover {
+    width: 100%;
+    height: 550px;
+}
+
+.cover img {
+    width: 100%;
+    height: 550px;
+}
+
+@media (max-width:1000px) and (min-width:880px) {
+    .cover {
+        height: 450px;
+    }
+
+    .cover img {
+        height: 450px;
+    }
+}
+
+@media (max-width:880px) and (min-width:660px) {
+    .cover {
+        height: 350px;
+    }
+
+    .cover img {
+        height: 350px;
+    }
+}
+
+@media (max-width:660px) {
+    .cover {
+        height: 300px;
+    }
+
+    .cover img {
+        height: 300px;
+    }
+}
+
+/* Cover CSS end */
+
+/* two_box CSS Start */
+
+.two_box {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #04364A;
+}
+
+.box {
+    width: 40%;
+    height: 350px;
+    border: 2px solid #64CCC5;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #64CCC5;
+}
+
+.two_box .box h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.two_box .box p {
+    margin-top: 55px;
+    font-size: 20px;
+    color: black;
+}
+
+.two_box .box button {
+    margin-top: 50px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #04364A;
+    background-color: #04364A;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+@media (max-width:1000px) and (min-width:880px) {
+    .two_box .box {
+        height: 325px;
+    }
+
+    .two_box .box h1 {
+        margin-top: 35px;
+        font-size: 34px;
+    }
+
+    .two_box .box p {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:880px) and (min-width:660px) {
+    .two_box .box {
+        height: 300px;
+    }
+
+    .two_box .box h1 {
+        margin-top: 35px;
+        font-size: 30px;
+    }
+
+    .two_box .box p {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:660px) {
+    .two_box {
+        height: 670px;
+    }
+
+    .two_box .box {
+        width: 80%;
+        height: 280px;
+    }
+
+    .two_box .box h1 {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .two_box .box p {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+
+/* Two_box CSS End */
+
+/* Photos CSS End */
+
+.main_photos {
+    width: 100%;
+    height: 620px;
+    background-color: #04364A;
+}
+
+.main_photos .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.main_photos .head h2 {
+    font-size: 32px;
+    color: whitesmoke;
+    text-decoration: underline #64CCC5;
+}
+
+.photos {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main_photos .photos img {
+    width: 10%;
+    height: 90%;
+    object-fit: cover;
+    border: 2px solid #64CCC5;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.main_photos .photos img:hover {
+    width: 25%;
+}
+
+@media(max-width:1000px) and (min-width:880px) {}
+
+@media(max-width:880px) and (min-width:660px) {
+    .main_photos {
+        height: 920px;
+    }
+
+    .main_photos .photos {
+        height: 850px;
+    }
+
+    .main_photos .photos img {
+        width: 80%;
+        height: 100px;
+    }
+
+    .main_photos .photos img:hover {
+        width: 80%;
+        height: 250px;
+    }
+}
+
+@media(max-width:660px) {
+    .main_photos {
+        height: 920px;
+    }
+
+    .main_photos .photos {
+        height: 850px;
+    }
+
+    .main_photos .photos img {
+        width: 80%;
+        height: 100px;
+    }
+
+    .main_photos .photos img:hover {
+        width: 80%;
+        height: 250px;
+    }
+}
+
+/* Photos CSS End */
+
+/* About CSS Start */
+
+.about {
+    border-top: 2px solid #176B87;
+    background-color: #04364A;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .left {
+    width: 35%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .mini_about {
+    background-color: #176B87;
+    border: 5px solid #64CCC5;
+    border-radius: 50%;
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.about .mini_about h1 {
+    font-size: 26px;
+    color: whitesmoke;
+    text-decoration: underline #64CCC5;
+}
+
+.about .mini_about h2 {
+    font-size: 26px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.about .right {
+    width: 65%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .right .prtone,
+.about .right .prttwo {
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .right .main_card .big_card {
+    border: 5px solid #64CCC5;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 70%;
+    height: 300px;
+}
+
+.main_card .card_style h2 {
+    margin: 15px 15px;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.main_card .card_style ul {
+    margin: 15px 15px;
+    list-style: none;
+}
+
+.main_card .card_style ul li {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #BBE1FA;
+}
+
+.main_card .card_style {
+    box-shadow: 0px 0px 12px 5px rgba(245, 245, 245, 0.75);
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(245, 245, 245, 0.75);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(245, 245, 245, 0.75);
+    transition: all ease-in-out 0.5 s;
+}
+
+.main_card .card_style:hover {
+    box-shadow: none;
+}
+
+.about .right .main_card .small_card {
+    border: 5px solid #64CCC5;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 70%;
+    height: 200px;
+}
+
+
+@media(max-width:1000px) and (min-width:880px) {
+    .about .mini_about {
+        width: 80%;
+        height: 325px;
+    }
+
+    .about .mini_about h1 {
+        font-size: 26px;
+    }
+
+    .about .mini_about h2 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:880px) and (min-width:660px) {
+    .about {
+        background-color: #04364A;
+        width: 100%;
+        height: 750px;
+    }
+
+    .about .left {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about .mini_about {
+        width: 40%;
+        height: 250px;
+    }
+
+    .about .mini_about h1 {
+        font-size: 24px;
+    }
+
+    .about .mini_about h2 {
+        font-size: 22px;
+    }
+
+    .about .right {
+        width: 100%;
+        height: 450px;
+        display: flex;
+    }
+
+    .about .right .prtone,
+    .about .right .prttwo {
+        justify-content: space-around;
+        width: 100%;
+        height: 225px;
+    }
+
+    .about .right .main_card .big_card {
+        width: 60%;
+        height: 200px;
+    }
+
+    .about .right .main_card .small_card {
+        border: 5px solid #64CCC5;
+        border-radius: 15px;
+        margin-top: 15px;
+        width: 30%;
+        height: 200px;
+    }
+
+    .main_card .card_style h2 {
+        margin: 15px 15px;
+        font-size: 24px;
+        color: whitesmoke;
+    }
+
+    .main_card .card_style ul {
+        margin: 15px 15px;
+        list-style: none;
+    }
+
+    .main_card .card_style ul li {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:660px) {
+    .about {
+        background-color: #04364A;
+        width: 100%;
+        height: 750px;
+    }
+
+    .about .left {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about .mini_about {
+        width: 70%;
+        height: 250px;
+    }
+
+    .about .mini_about h1 {
+        font-size: 24px;
+    }
+
+    .about .mini_about h2 {
+        font-size: 22px;
+    }
+
+    .about .right {
+        width: 100%;
+        height: 450px;
+        display: flex;
+    }
+
+    .about .right .prtone,
+    .about .right .prttwo {
+        justify-content: space-around;
+        width: 100%;
+        height: 225px;
+    }
+
+    .about .right .main_card .big_card {
+        width: 60%;
+        height: 200px;
+    }
+
+    .about .right .main_card .small_card {
+        width: 30%;
+        height: 200px;
+    }
+
+    .main_card .card_style h2 {
+        font-size: 20px;
+    }
+
+    .main_card .card_style ul {
+        margin: 15px 15px;
+    }
+
+    .main_card .card_style ul li {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+/* About CSS End */
+
+/* Contact CSs Start */
+
+.contact {
+    border-top:2px solid #176B87;
+    width: 100%;
+    height: 450px;
+    background-color: #04364A;
+}
+
+.contact .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.contact h1 {
+    font-size: 38px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-decoration: underline #64CCC5;
+}
+
+.contact .detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 350px;
+}
+
+.contact .detail .same_cont {
+    text-align: center;
+    width: 30%;
+    height: 250px;
+    border-radius: 15px;
+    border-bottom: 2px solid #BBE1FA;
+}
+
+.contact .detail .same_cont:hover {
+    border: 2px solid #BBE1FA;
+}
+
+.same_cont h2 {
+    margin-top: 55px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #176B87;
+}
+
+.same_cont h4 {
+    margin-top: 55px;
+    font-size: 24px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-decoration: underline #64CCC5;
+}
+
+@media (max-width:1000px) and (min-width:880px) {
+    .contact {
+        height: 750px;
+    }
+
+    .contact .header h1 {
+        font-size: 34px;
+    }
+
+    .contact .detail {
+        height: 650px;
+    }
+
+    .contact .detail .same_cont {
+        width: 40%;
+    }
+
+    .detail .same_cont h2 {
+        font-size: 24px;
+    }
+
+    .detail .same_cont h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:880px) and (min-width:660px) {
+    .contact {
+        height: 750px;
+    }
+
+    .contact .header h1 {
+        font-size: 30px;
+    }
+
+    .contact .detail {
+        height: 650px;
+    }
+
+    .contact .detail .same_cont {
+        width: 40%;
+    }
+
+    .detail .same_cont h2 {
+        font-size: 20px;
+    }
+
+    .detail .same_cont h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:660px) {
+    .contact {
+        height: 1050px;
+    }
+
+    .contact .header h1 {
+        font-size: 30px;
+    }
+
+    .contact .detail {
+        height: 950px;
+    }
+
+    .contact .detail .same_cont {
+        width: 80%;
+    }
+
+    .detail .same_cont h2 {
+        font-size: 20px;
+    }
+
+    .detail .same_cont h4 {
+        font-size: 18px;
+    }
+}
+
+/* Contact CSS End */
+
+/* Footer Css Start */
+
+.footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #04364A;
+    border-top: 2px solid #176B87;
+    overflow: hidden;
+}
+
+.footer .left,
+.footer .right {
+    width: 35%;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.footer .left {
+    text-align: center;
+    border-right: 10px solid #BBE1FA;
+    border-style: double;
+}
+
+.footer .left h1 {
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-decoration: underline #64CCC5;
+    text-decoration-style: double;
+}
+
+
+.footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .right ul {
+    list-style: none;
+}
+
+.footer .right ul li {
+    margin-top: 15px;
+}
+
+.footer .right ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+@media (max-width:1000px) and (min-width:880px) {
+    .footer .left {
+        width: 45%;
+    }
+
+    .footer .left h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width:880px) and (min-width:660px) {
+    .footer .left {
+        width: 55%;
+    }
+
+    .footer .left h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:660px) {
+    .footer .left {
+        width: 55%;
+    }
+
+    .footer .left h1 {
+        font-size: 28px;
+    }
+}
+
+/* Footer CSS End */
+
+/* Copyright CSS Start */
+
+.copyright {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.copyright h6 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #2B2B2B;
+}
+
+/* Copyright CSS End */
